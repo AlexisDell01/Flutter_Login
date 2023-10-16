@@ -4,7 +4,7 @@ import 'package:flutter_application_2/models/product.dart';
 import 'package:http/http.dart' as http;
 
 class ProductsServices extends ChangeNotifier {
-  final String _baseUrl = "bmobiles2-default-rtdb.firebaseio.com";
+  final String _baseUrl = "bmobiles2-default-rtdb.firebaseio.com"; //Url of your database of firebase
   final List<Product> products = [];
 
   bool isLoading = true;
